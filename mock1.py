@@ -1,4 +1,5 @@
+from logger.logger import Logger
 
 
 if __name__  == "__main__":
-    print("hello world")
+    Logger.log("hello world")
